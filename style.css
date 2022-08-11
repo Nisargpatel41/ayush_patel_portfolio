@@ -296,27 +296,9 @@ body {
     /* text-align: center; */
 }
 
-.moreBtn {
-    position: absolute;
-    margin-top: 15%;
-    left: 37.5%;
-    background-color: #0075f6;
-    color: #fff;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.8em;
-    padding: 0.5em 2em;
-    transition: all 0.5s ease;
-}
-
 #education {
     background-color: #f6f6f6;
     padding: 20px 0;
-}
-
-.moreBtn:hover {
-    text-decoration: none;
 }
 
 .imageDiv {
@@ -736,11 +718,6 @@ textarea {
         margin: 8% 10%;
     }
 
-    .moreBtn {
-        margin-top: 13%;
-        left: 39%;
-    }
-
     .imageDiv {
         height: 23em;
         margin-top: 30%;
@@ -778,11 +755,6 @@ textarea {
         margin: 7% 8%;
     }
 
-    .moreBtn {
-        margin-top: 10%;
-        left: 40%;
-    }
-
     .imageDiv {
         margin-top: 23%;
         height: 25em;
@@ -818,11 +790,6 @@ textarea {
 
     .aboutMeText {
         margin: 5% 8%;
-    }
-
-    .moreBtn {
-        margin-top: 7%;
-        left: 42.5%;
     }
 
     .imageDiv {
@@ -1083,25 +1050,6 @@ textarea {
         position: absolute;
         right: 0;
         letter-spacing: 1.5px;
-    }
-
-    .moreBtn {
-        background-color: #0075f6;
-        color: #fff;
-        border-radius: 30px;
-        text-decoration: none;
-        font-weight: bold;
-        padding: 0.6em 2em;
-        left: 0%;
-        margin-top: 20%;
-        font-size: 1em;
-    }
-
-    .moreBtn:hover {
-        text-decoration: none;
-        background-color: transparent;
-        color: #0075f6;
-        border: 1px solid #0075f6;
     }
 
     .imageDiv {
@@ -1374,12 +1322,6 @@ textarea {
         font-size: 1em;
         width: 35%;
         margin-top: 5.5%;
-    }
-
-    .moreBtn {
-        margin-top: 21%;
-        font-size: 1em;
-        padding: 0.5em 2em;
     }
 
     .gridImageTwo {

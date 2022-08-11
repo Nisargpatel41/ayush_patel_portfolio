@@ -6,18 +6,21 @@ const hourlyRateDiv = document.querySelector(".hourlyRate");
 const submitBtn = document.querySelector(".submitBtn");
 const contactForm = document.querySelector("#contactForm");
 
+//to open navigation menu in mobile device
 mobileNavLink.addEventListener("click", () => {
   mobileMenu.classList.add("mobileMenuVisible");
   mobileMenuBg.classList.add("mobileMenuVisible");
   mobileNavLink.classList.add("menuBtnHide");
 });
 
+//to close navigation menu in mobile device
 mobileNavBtnActive.addEventListener("click", () => {
   mobileMenu.classList.remove("mobileMenuVisible");
   mobileMenuBg.classList.remove("mobileMenuVisible");
   mobileNavLink.classList.remove("menuBtnHide");
 });
 
+//on click of submit api call will be done from this function
 submitBtn.addEventListener("click", (event) => {
   event.preventDefault();
   const reqData = {};
@@ -44,6 +47,7 @@ submitBtn.addEventListener("click", (event) => {
   });
 });
 
+//hourly rate input toggle
 const handleRadioValueChange = (value) => {
   if(value === "Hiring") {
     hourlyRateDiv.style.display = "block";
@@ -52,6 +56,7 @@ const handleRadioValueChange = (value) => {
   }
 }
 
+//resume download
 const downloadCV = () => {
   let link = document.createElement("a");
   link.download = "Aryan_Patel_Resume.pdf";
