@@ -542,6 +542,7 @@ textarea {
     border: 1px solid #0075f6;
     color: #77b7ff;
     color: #0075f6;
+    cursor: pointer;
     /* background: #0075f6;
     background: #77b7ff;
     color: #fff;
