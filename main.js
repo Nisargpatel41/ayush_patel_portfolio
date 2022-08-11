@@ -25,7 +25,8 @@ const handleRadioValueChange = (value) => {
 }
 
 const downloadCV = () => {
-  console.log(window.location);
-  window.open(window.location.origin + "/assets/temp.pdf");
-  // window.open()
+  let link = document.createElement("a");
+  link.download = "Aryan_Patel_Resume.pdf";
+  link.href = window.location.origin + "/assets/Resume.pdf";
+  link.click();
 }

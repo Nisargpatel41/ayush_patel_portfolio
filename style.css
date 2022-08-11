@@ -281,18 +281,18 @@ body {
 }
 
 .aboutMeDiv {
-    height: 55em;
+    height: 65em;
     width: 100%;
 }
 
 .aboutMeText {
     /* height: 20em; */
     height: auto;
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: 400;
     color: #727272;
     margin: 10% 7%;
-    line-height: 1.7em;
+    line-height: 1.5em;
     /* text-align: center; */
 }
 
@@ -322,7 +322,7 @@ body {
 .imageDiv {
     width: 80%;
     margin: 10%;
-    margin-top: 30%;
+    margin-top: 10%;
     height: 20em;
     /* box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2); */
     transition: all 0.2s ease;
@@ -395,7 +395,7 @@ hr {
 .education-detail-container {
     height: auto;
     width: 60%;
-    margin: 10px auto;
+    margin: 15px auto;
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 16px -5px rgb(0 0 0 / 20%)
@@ -461,7 +461,7 @@ hr {
 }
 
 .contactPageContent {
-    padding: 15% 5% 12% 5%;
+    padding: 1% 5% 12% 5%;
 }
 
 .contactTitle {
@@ -1073,8 +1073,8 @@ textarea {
     }
 
     .aboutMeText {
-        font-size: 1.2em;
-        font-weight: 600;
+        font-size: 0.8em;
+        font-weight: 400;
         color: #727272;
         margin: 6% 7%;
         width: 30%;
@@ -1368,9 +1368,9 @@ textarea {
     }
 
     .aboutMeText {
-        line-height: 2.1em;
-        font-weight: 800;
-        font-size: 1.3em;
+        line-height: 1.5em;
+        font-weight: 500;
+        font-size: 1em;
         width: 35%;
         margin-top: 5.5%;
     }
