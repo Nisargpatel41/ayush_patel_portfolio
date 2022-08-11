@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <div class="header">
+            <div class="logoDiv">
+                <a href="#">A</a>
+            </div>
+            <div class="navigationDiv">
+                <nav class="navigation">
+                    <ul class="navigationUl">
+                        <li class="navigationLi">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="navigationLi">
+                            <a href="#education">Education</a>
+                        </li>
+                        <li class="navigationLi contactLi">
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li class="CV">
+                            <button class="cvBtn" onclick="downloadCV()">
+                                Download CV
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="navButtonDiv">
+                <ul>
+                    <li class="navButton" id="mobileNavBtn">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                        Menu
+                    </li>
+                </ul>
+            </div>
+            <div class="mobileSliderBg" id="mobileMenuBg">
+                <div class="mobileSlider open" id="mobileMenu">
+                    <div class="closeBtnDiv">
+                        <i class="fa-solid fa-circle-xmark"  id="mobileNavBtnActive"></i>
+                    </div>
+                    <nav class="navigationMob">
+                        <ul class="navigationUlMob">
+                            <li class="navigationLiMob">
+                                <a href="#about">About</a>
+                            </li>
+                            <li class="navigationLiMob">
+                                <a href="#education">Education</a>
+                            </li>
+                            <li class="navigationLiMob">
+                                <a href="#contact">Contact</a>
+                            </li>
+                            <li class="navigationLiMob cvDwn">
+                                <a href="./assets/temp.pdf" download="Resume.pdf">
+                                Download CV
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header end -->
+
+    <!-- Main content start -->
+    <div class="mainDiv">
+        <div class="blueDiv"></div>
+        <div class="imgDiv">
+            <img src="assets\images\aryan.jpeg" alt="myImage" />
+        </div>
+        <div class="textOnImage animated bounceInLeft">
+            <div class="textBackground">
+                <h4>Hello</h4>
+                <h2>
+                    I'm
+                    <span> Aryan P Patel</span>
+                </h2>
+                <h3>A Software Developer</h3>
+                <a href="#contact" class="hireMe hvr-bounce-to-right">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Main content end -->
+
+    <!-- About Me start -->
+
+    <div id="about" class="aboutMeDiv">
+        <h3 class="title">About Me</h3>
+        <hr class="firstHr" />
+        <hr class="secondHr" />
+        <div class="aboutMeText">
+            <div class="gridImageOne">
+                <img src="assets\images\color_grid.png" alt="gridImage">
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod maxime, magni repellendus nihil sed modi, nulla tenetur sit soluta ipsum consequuntur perspiciatis accusantium suscipit ex inventore vitae quibusdam molestiae!
+        </div>
+
+        <div class="imageDiv">
+
+            <div>
+                <table class="styled-table">
+                    <tbody>
+                        <tr>
+                            <td>Name:</td>
+                            <td class="aboutDetails">Aryan Patel</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>Email:</td>
+                            <td class="aboutDetails breakLargeText">aryanpatel2698@gmail.com</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>Age:</td>
+                            <td class="aboutDetails">19</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>Date:</td>
+                            <td class="aboutDetails">April 12th 2021</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>Languages:</td>
+                            <td class="aboutDetails">English, French, Hindi, Gujarati, Turkish</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>Class Section:</td>
+                            <td class="aboutDetails">NHH</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>Student ID:</td>
+                            <td class="aboutDetails">133889212</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>Professor:</td>
+                            <td class="aboutDetails">Siyavash Ghasseminia</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me end -->
+
+    <!-- Education start -->
+
+    <div id="education">
+
+        <h3 class="title">Education</h3>
+        <hr class="firstHr" />
+        <hr class="secondHr" />
+
+        <div class="education-detail-container">
+            <div class="education-degree">
+                <span>2017-2018</span>
+                <span>10th Grade</span>
+            </div>
+            <div class="education-college">
+                <span>10th Grade</span>
+                <span>Baroda High School, Vadodara</span>
+                <span>Completed it with 85.55 percentile rank in 2018.</span>
+            </div>
+        </div>
+        <div class="education-detail-container">
+            <div class="education-degree">
+                <span>2017-2018</span>
+                <span>12th Grade</span>
+            </div>
+            <div class="education-college">
+                <span>12th Grade</span>
+                <span>Vidhyakunj High School, Vadodara</span>
+                <span>Completed it with 63.30 percentile rank in 2020.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education end -->
+
+    <!-- Contact block start -->
+
+    <div class="contactPageMain">
+        <h3 id="contact" class="title">Contact</h3>
+        <hr class="firstHr" />
+        <hr class="secondHr" />
+        <div class="contactPageContent">
+
+            <div class="contactTextMain verticalCenter">
+                <div class="footerContact">
+                    <h4 class="footerTitle questions">Contact Info</h4>
+                    <div class="footerContactContent marginBottom1">
+                        <i class="fa fa-map-marker"></i>
+                        <p>
+                            Apt 1403-30 Carabob Court
+                        </p>
+                    </div>
+                    <div class="footerPhone">
+                        <div class="footerContactContent marginBottom1">
+                            <i class="fa fa-phone"></i>
+                            <a class="footer-phone" href="tel:+416-577-4399">
+                                416-577-4399
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footerMail">
+                        <div class="footerContactContent marginBottom1">
+                            <i class="fa fa-envelope"></i>
+                            <a class="footer-mail" href="mailto:aryanpatel2698@gmail.com">
+                                aryanpatel2698@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactFormMain">
+                <h3 class="title getInTouch" style="font-size: 1.3em;color: #10285d;">
+                    Get in Touch
+                </h3>
+                <div class="contactFormDiv">
+                    <!-- <form action="" onSubmit={this.handleSubmit}> -->
+                    <form action="">
+                        <div class="formInputGroup">
+                            <input class="formInputs" type="text" name="userName" placeholder="*Name" required />
+                        </div>
+
+                        <div class="formInputGroup">
+                            <input class="formInputs" type="text" name="userEmail" placeholder="*Email Address"
+                                required />
+                        </div>
+
+                        <div class="formInputGroup">
+                            <input class="formInputs" type="text" name="userPhone" placeholder="*Phone Number"
+                                required />
+                        </div>
+
+                        <div class="formInputGroup">
+                            <textarea class="formInputs" name="userAddress" placeholder="Address"
+                                required></textarea>
+                        </div>
+
+                        <div class="formInputGroup">
+                            <input class="formInputs" list="cities" type="text" name="city" placeholder="City" required/>
+                            <datalist id="cities">
+                                <option value="Toronto">
+                                <option value="Vancouver">
+                                <option value="Calgary">
+                                <option value="Ottawa">
+                                <option value="Montreal">
+                              </datalist>
+                        </div>
+
+                        <div class="formInputGroup">
+                            <input class="formInputs" type="number" name="zipcode"
+                                placeholder="Postal Code" required/>
+                        </div>
+
+                        <div class="formInputGroup radioSpaceAround">
+                            <label for="question"><input type="radio" id="question" name="inquiry_type"
+                                    value="Question" onchange="handleRadioValueChange(value)" required> Question</label>
+                            <label for="hiring"><input type="radio" id="hiring" name="inquiry_type" value="Hiring" onchange="handleRadioValueChange(value)">
+                                Hiring</label>
+                            <label for="comment"><input type="radio" id="comment" name="inquiry_type" value="Comment" onchange="handleRadioValueChange(value)">
+                                Comment</label>
+                        </div>
+
+                        <div class="formInputGroup hourlyRate">
+                            <input class="formInputs" type="number" min="0" name="hourlyrate"
+                                placeholder="Hourly Rate"/>
+                        </div>
+
+                        <div class="formInputGroup">
+                            <textarea class="formInputs" name="userMessage" placeholder="*Your Message"
+                                required></textarea>
+                        </div>
+                        <input type="submit" class="formInputs submitBtn" />
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Contact block end -->
+
+    <script src="main.js"></script>
+</body>
+
+</html>
